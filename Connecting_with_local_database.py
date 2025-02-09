@@ -5,8 +5,8 @@ from WeatherStack_API_requset import fetch_weather_data
 password = os.getenv("POSTGRES_PASSWORD")
 
 DB_NAME = "Weather_App"
-DB_USER = "postgres"
-DB_PASSWORD = 'Mariam@2001'
+DB_USER = ""
+DB_PASSWORD = ""
 DB_HOST = "localhost"
 DB_PORT = "5432"
 
